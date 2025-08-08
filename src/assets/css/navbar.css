@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.navbar {
+}
+
+.navbar-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-logo {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+
+.movie-logo img {
+  width: 100% !important;
+  height: auto !important;
+}

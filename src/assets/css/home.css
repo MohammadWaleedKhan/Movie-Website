@@ -1,0 +1,27 @@
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  border: 2px solid oklch(27.8% 0.033 256.848);
+  border-radius: 6px;
+  padding: 3px 12px;
+}
+
+.search-flex {
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  padding: 0px 5px;
+  transition: 1s;
+}
+
+.search-button-icon {
+  color: oklch(27.8% 0.033 256.848);
+}
+
+.search-button:hover {
+  scale: 1.3;
+}
