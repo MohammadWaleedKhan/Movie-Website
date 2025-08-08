@@ -1,0 +1,60 @@
+.footerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid oklch(45.7% 0.052 261.325);
+
+  /* padding-bottom: 30px; */
+}
+
+.socialIconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.socialIconWrap .socialIcon {
+  font-size: 30px;
+  color: oklch(70.7% 0.022 261.325);
+}
+
+.footerText p {
+  font-size: 14px;
+  line-height: 24px;
+  color: oklch(70.7% 0.022 261.325);
+}
+
+.copyRightText {
+  padding: 20px 0px;
+}
+
+.copyRightText p {
+  font-size: 14px;
+  line-height: 24px;
+  color: oklch(70.7% 0.022 261.325);
+  text-align: center;
+}
+
+.footerWrap {
+}
+
+@media (max-width: 640px) {
+  .footerFlex {
+    flex-direction: column;
+  }
+  .movie-logo {
+    height: 110px;
+  }
+
+  .footerText {
+    margin-bottom: 30px;
+  }
+  .footerText p {
+    text-align: center;
+  }
+
+  .footerSocialIcons {
+    margin-bottom: 30px;
+  }
+}

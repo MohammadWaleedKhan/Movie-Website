@@ -2,6 +2,7 @@
 
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { MovieProvider } from "./context/MovieContext";
 import Favourite from "./pages/Favourite";
 import Home from "./pages/Home";
@@ -19,6 +20,9 @@ function App() {
         <Route path="/favourite" element={<Favourite />} />
       </Routes>
       {/* </div> */}
+      <div>
+        <Footer />
+      </div>
     </MovieProvider>
   );
 }
